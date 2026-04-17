@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam's Website</title>
+  <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-home" data-page="home" aria-label="Home">
+      <svg viewBox="0 0 130 132" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M108 32 A50 50 0 1 0 108 82" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+        <path d="M12 122 L65 22 L118 122" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <div class="nav-links">
+      <a data-page="experience">Experience</a>
+      <a data-page="contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── HOME ── -->
+  <div id="page-home" class="page active">
+    <div class="wrap">
+      <section class="hero">
+        <p class="hero-greeting">Hello!</p>
+        <h1>I'm Adam, a Revenue<br>Operations Analyst.</h1>
+        <p class="hero-sub">I'm passionate about happy paying customers, scaling ACV and ARR, and working with people who challenge me to be more than my best every single day.</p>
+      </section>
+    </div>
+  <div class="scroll-hint" aria-hidden="true">
+    <svg viewBox="0 0 24 12" width="24" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 2L12 10L22 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  </div>
+
+  <!-- ── EXPERIENCE ── -->
+  <div id="page-experience" class="page">
+    <div class="wrap">
+      <section class="section">
+        <div class="section-sticky-header">
+          <p class="section-intro">Currently at Gen II &mdash; managing billing and revenue operations for our Private Equity Software Solutions.</p>
+          <a class="resume-btn" href="resume.pdf" download>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3v11M8 10l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 17v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="work-item">
+          <div class="work-left">
+            <p class="work-title">Revenue Operations Analyst</p>
+            <p class="work-company">Gen II Fund Services</p>
+            <p class="work-date">June 2025 – Present</p>
+          </div>
+          <div class="work-right">
+            <p class="work-desc">Oversees billing data accuracy, reporting, and analytics in Salesforce to support business decision-making. Prepares and tracks client billing, accounts receivables, and monthly invoicing reports for Finance. Manages ad-hoc client billing inquiries and maintains documentation across the sales process.</p>
+            <div class="work-tags">
+              <span class="work-stat">300 clients · $1T AUM · 45,000 LPs</span>
+              <span class="work-tag">Salesforce</span>
+              <span class="work-tag">Billing Ops</span>
+              <span class="work-tag">AR</span>
+              <span class="work-tag">Revenue Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="work-left">
+            <p class="work-title">Sales Operations Analyst</p>
+            <p class="work-company">Allied Universal</p>
+            <p class="work-date">May 2023 – June 2025</p>
+          </div>
+          <div class="work-right">
+            <p class="work-desc">Managed the full post-sale client lifecycle — onboarding, billing, and revenue recognition — using NetSuite. Built financial models in Excel to optimize pricing structures and drove order-to-cash process improvements across Operations and Finance.</p>
+            <div class="work-tags">
+              <span class="work-stat">20% faster billing resolution</span>
+              <span class="work-tag">NetSuite</span>
+              <span class="work-tag">Excel</span>
+              <span class="work-tag">Revenue Ops</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-item work-item--group">
+          <div class="work-left">
+            <div class="work-roles-left">
+              <p class="work-title">Account Manager</p>
+              <p class="work-promoted">↑ promoted</p>
+              <p class="work-title work-title--secondary">Associate Account Manager</p>
+            </div>
+            <p class="work-company">WebMD</p>
+            <p class="work-date">June 2021 – October 2022</p>
+          </div>
+          <div class="work-right">
+            <div class="work-role">
+              <p class="work-desc">Managed $8M in annual revenue across major pharma accounts including Johnson &amp; Johnson, Novo Nordisk, and Novartis. Led IO/SOW creation, deferred revenue reporting, and served as subject matter expert for the BrandSeeker Advertising Product.</p>
+              <div class="work-tags">
+                <span class="work-stat">$8M revenue managed</span>
+                <span class="work-stat">Portfolio $1M → $4M</span>
+                <span class="work-tag">Salesforce</span>
+                <span class="work-tag">Campaign Ops</span>
+              </div>
+            </div>
+            <div class="work-role">
+              <p class="work-desc">Drove a 160% increase in team productivity by optimizing task delegation and providing targeted product and quality control training to offshore resources.</p>
+              <div class="work-tags">
+                <span class="work-stat">160% productivity increase</span>
+                <span class="work-tag">Offshore Management</span>
+                <span class="work-tag">QC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-item">
+          <div class="work-left">
+            <p class="work-title">Teaching Assistant</p>
+            <p class="work-company">NYU</p>
+            <p class="work-date">October 2020 – May 2021</p>
+          </div>
+          <div class="work-right">
+            <p class="work-desc">Built a Python automation tool to flag incomplete student assignments — improving grading efficiency by 3% and earning department-wide adoption by fellow TAs.</p>
+            <div class="work-tags">
+              <span class="work-stat">Adopted dept-wide</span>
+              <span class="work-tag">Python</span>
+              <span class="work-tag">Automation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- ── CONTACT ── -->
+  <div id="page-contact" class="page">
+    <div class="wrap">
+      <div class="contact-body">
+        <div class="contact-text">
+          <h2>Let's connect.</h2>
+          <p>Whether it's a new opportunity, a collaboration, or just to say hello — my inbox is always open.</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/adam-chou/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M7 10v7M7 7v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M11 17v-4a3 3 0 0 1 6 0v4M11 11v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <a href="mailto:adamchoubusiness@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M2 7l10 7 10-7" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="https://github.com/winkyfaceemoji" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" stroke="currentColor" stroke-width="1.3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── DESKTOP SOCIAL DOCK (fixed bottom right) ── -->
+  <div class="social-dock">
+    <a href="https://www.linkedin.com/in/adam-chou/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M7 10v7M7 7v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M11 17v-4a3 3 0 0 1 6 0v4M11 11v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </a>
+    <a href="mailto:adamchoubusiness@gmail.com" aria-label="Email">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M2 7l10 7 10-7" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <a href="https://github.com/winkyfaceemoji" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" stroke="currentColor" stroke-width="1.3"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- ── MOBILE BOTTOM BAR ── -->
+  <div class="mobile-bottom-bar">
+    <a class="resume-btn resume-btn--mobile" href="resume.pdf" download>
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 3v11M8 10l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4 17v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      Download Resume
+    </a>
+  </div>
+
+
+  <script src="script.js" defer></script>
+</body>
+</html>
