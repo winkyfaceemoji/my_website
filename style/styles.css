@@ -109,7 +109,7 @@
     /* ── HERO ── */
     #page-home { background: var(--bg); }
     #page-experience { background: var(--bg-experience); }
-    #page-contact { background: var(--bg-contact); }
+    #page-contact { background: var(--bg); }
 
     #page-home {
       position: relative;
@@ -215,9 +215,8 @@
     .contact-links svg { width: 22px; height: 22px; }
  
  
-    /* Social dock hidden on mobile, hidden on contact page */
+    /* Social dock hidden on mobile */
     .social-dock { display: none; }
-    body.page-contact .social-dock { display: none !important; }
 
  
     /* ══════════════════════════════════
