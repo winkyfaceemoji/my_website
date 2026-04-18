@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Adam's Website</title>
   <link rel="stylesheet" href="style/styles.css">
 </head>
@@ -30,15 +30,17 @@
         <p class="hero-sub">I'm passionate about happy paying customers, scaling ACV and ARR, and working with people who challenge me to be more than my best every single day.</p>
       </section>
     </div>
-  <div class="scroll-hint" aria-hidden="true">
-    <svg viewBox="0 0 24 12" width="24" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M2 2L12 10L22 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span class="scroll-hint-label">Experience</span>
+      <svg viewBox="0 0 24 12" width="24" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 2L12 10L22 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
   </div>
 
   <!-- ── EXPERIENCE ── -->
   <div id="page-experience" class="page">
+    <div class="page-scroll-content">
     <div class="wrap">
       <section class="section">
         <div class="section-sticky-header">
@@ -134,6 +136,7 @@
         </div>
       </section>
     </div>
+    </div>
   </div>
 
   <!-- ── CONTACT ── -->
@@ -167,6 +170,16 @@
       </div>
     </div>
   </div>
+
+  <!-- ── DESKTOP PAGE CYCLE BUTTON ── -->
+  <button class="page-next-btn" id="page-next-btn" aria-label="Next page">
+    <span class="page-next-label" id="page-next-label">Experience</span>
+    <div class="page-next-circle">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </button>
 
   <!-- ── DESKTOP SOCIAL DOCK (fixed bottom right) ── -->
   <div class="social-dock">
